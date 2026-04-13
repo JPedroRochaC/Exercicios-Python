@@ -1,0 +1,6 @@
+print('--ALUGUEL CARRO--')
+d=int(input('Digite quantos dias: '))
+km=float(input('Digite quantos km rodados: '))
+p=(d*60)+(km*0.15)
+print(10*'--')
+print(f'O preço é R${p}')
